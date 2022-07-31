@@ -5,7 +5,7 @@ public class reverstring {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string");
-        String str = sc.nextLine();
+        java.lang.String str = sc.nextLine();
         sc.close();
         StringBuilder str2 = new StringBuilder();
         str2.append(str);

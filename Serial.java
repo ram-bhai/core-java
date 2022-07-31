@@ -7,14 +7,14 @@ import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 class Employee implements Serializable{
   private int id;
-  private String name;
-  private String mobile;
+  private java.lang.String name;
+  private java.lang.String mobile;
   private int age;
   //int serialVersionUID = 1L;
-  public Employee(int id, String name, String mobile, int age){
+  public Employee(int id, java.lang.String string, java.lang.String string2, int age){
     this.id = id;
-    this.name = name;
-    this.mobile = mobile;
+    this.name = string;
+    this.mobile = string2;
     this.age = age;
   }
   public Employee(){}
@@ -23,7 +23,7 @@ class Employee implements Serializable{
   public String getName(){return name;}
   public String getMobile(){return mobile;}
   public int getAge(){return age;}
-  public String toString(){
+  public java.lang.String toString(){
     return id+" "+name+" "+mobile+" "+age;
   }
 }

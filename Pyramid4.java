@@ -28,6 +28,7 @@ class Test{
  		Scanner scan = new Scanner(System.in);
  		System.out.println("Enter a value");
  		int n = scan.nextInt();
+    scan.close();
  		
  		Pyramid p1 = new Pyramid(n);
  		p1.printPattern();
